@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (d5220f19438cd67b)
+project:
+  name: python-mev-bot-toolkit-cxsx
+  tag: d5220f19438cd67b
+  env: production
+cfg_relay68bf1h:
+  enabled: true
+  workers: 5
+cfg_buffer2sakd7:
+  timeout_sec: 32
+  retry: 2
+cfg_kernelk62eab:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout

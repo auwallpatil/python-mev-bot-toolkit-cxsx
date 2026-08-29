@@ -1,0 +1,9 @@
+[package]
+name = "python_mev_bot_toolkit_cxsx"
+version = "0.1.5"
+edition = "2021"
+description = "Utility scaffold — tag d5220f19"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
